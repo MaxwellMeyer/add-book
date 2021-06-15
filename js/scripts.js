@@ -69,6 +69,6 @@ $(document).ready(function () {
       inputtedPhoneNumber
     );
     addressBook.addContact(newContact);
-    console.log(addressBook.contacts);
+    displayContactDetails(addressBook);
   });
 });
